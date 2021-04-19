@@ -1,0 +1,41 @@
+
+CREATING TABLE IDENTIFY_SQL:
+
+
+create table identify_sql(attach varchar(25) default 'nothing', line1 varchar(30), line2 varchar(30), line3 varchar(30));
+insert into identify_sql values("methyl", " __       ", "/  ` |__| ", "\\__, |  |3");
+insert into identify_sql values("ethyl"," __       ", "/  ` |__| ", "\\__,2|  |5");
+insert into identify_sql values("propyl", " __       ", "/  ` |__| ", "\\__,3|  |7");
+
+insert into identify_sql values("butyl"," __       ", "/  ` |__| ", "\\__,4|  |9");
+insert into identify_sql values("pentyl"," __       ", "/  ` |__| ", "\\__,5|  |11");
+insert into identify_sql values("hexyl"," __       ", "/  ` |__| ", "\\__,6|  |13");
+insert into identify_sql values("heptyl"," __       ", "/  ` |__| ", "\\__,7|  |15");
+insert into identify_sql values("octyl"," __       ", "/  ` |__| ", "\\__,8|  |17");
+insert into identify_sql values("nonyl"," __       ", "/  ` |__| ", "\\__,9|  |19");
+insert into identify_sql values("fluoro","    ___   ", "   |__    ", "   |      ");
+insert into identify_sql values("chloro","   __     ", "  /  ` |  ", "  \\__, |  ");
+insert into identify_sql values("bromo","   __     ", "  |__) __ ", "  |__)|   ");
+insert into identify_sql values("iodo","   ___    ", "    |     ", "   _|_    ");
+insert into identify_sql values("h","          ", "   |__|   ", "   |  |   ");
+insert into identify_sql values("*","          ", "          ", "          ");
+insert into identify_sql values("one","    __    ", "   /  \\   ", "   \\__/   ");
+insert into identify_sql values("oxo","    __    ", "   /  \\   ", "   \\__/   ");
+insert into identify_sql values("ol","  __      ", " /  \\ |__|", " \\__/ |  |");
+insert into identify_sql values("amine","          ", "|\\ | |__| ", "| \\| |  |2");
+insert into identify_sql values("onic acid","┌─┐┌─┐ ┬ ┬", "└─┐│ │ ├─┤", "└─┘└─┘3┴ ┴");
+insert into identify_sql values("sulpho","┌─┐┌─┐ ┬ ┬", "└─┐│ │ ├─┤", "└─┘└─┘3┴ ┴");
+insert into identify_sql values("al","        __        __   ", "       /  ` |__| /  \\  ", "       \\__, |  | \\__/  ");
+insert into identify_sql values("oic acid","   __   __   __        ", "  /  ` /  \\ /  \\ |__|  ", "  \\__, \\__/ \\__/ |  |  ");
+insert into identify_sql values("amide","   __   __             ", "  /  ` /  \\ |\\ | |__|  ", "  \\__, \\__/ | \\| |  |3 ");
+insert into identify_sql values("nitrile"," __       ", "/  ` |\\ | ", "\\__, | \\| ");
+insert into identify_sql values("cyano"," __       ", "/  ` |\\ | ", "\\__, | \\| ");
+insert into identify_sql values("oyl fluoride","       __   __   ___   ", "      /  ` /  \\ |__    ", "      \\__, \\__/ |      ");
+insert into identify_sql values("oyl chloride","      __   __   __     ", "     /  ` /  \\ /  ` |  ", "     \\__, \\__/ \\__, |  ");
+insert into identify_sql values("oyl bromide","     __   __   __      ", "    /  ` /  \\ |__)  __ ", "    \\__, \\__/ |__) |   ");
+insert into identify_sql values("oyl iodide","        __   __        ", "       /  ` /  \\ |     ", "       \\__, \\__/ |     ");
+insert into identify_sql values("carbon","   __   ", "  /  `  ", "  \\__,  ");
+insert into identify_sql values("horizontal_single_bond","  ", "--", "  ");
+insert into identify_sql values("terminal_space","             ", "             ", "             ");
+insert into identify_sql values("nothing","", "", "");
+
